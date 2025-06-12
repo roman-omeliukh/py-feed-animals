@@ -13,7 +13,7 @@ class Animal:
         if not self.is_hungry:
             return 0
         print(f"Eating {self.appetite} food points...")
-        self.is_hungry = not self.is_hungry
+        self.is_hungry = False
         return self.appetite
 
 
